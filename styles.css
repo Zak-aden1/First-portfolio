@@ -54,3 +54,17 @@ button {
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
+
+.main-div h1 {
+  font-size: 50px;
+  margin-left: 44px;
+}
+
+.container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.container div {
+  padding: 15px;
+}
