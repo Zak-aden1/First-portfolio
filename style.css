@@ -1,28 +1,46 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background: #e5e5e5;
-}
-
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
 }
-
-.logo {
+header .header__h6 {
   margin-right: auto;
 }
-
-.nav-links {
+header .header__ul {
   list-style-type: none;
 }
-
-.nav-links li {
+header .header__ul li {
   display: inline-block;
   padding: 0px 20px;
+}
+header .header__ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #057ca3;
+}
+header .header__ul li a {
+  transition: all 0.3s ease 0s;
+}
+header .header__ul li a:hover {
+  color: blue;
+}
+header button {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #057ca3;
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #71fecb;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+header button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
 }
 
 li,
@@ -34,65 +52,30 @@ button {
   color: #057ca3;
 }
 
-.nav-links li a {
-  transition: all 0.3s ease 0s;
-}
-.nav-links li a:hover {
-  color: blue;
-}
-
-button {
-  margin-left: 20px;
-  padding: 9px 25px;
-  background-color: #71fecb;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-button:hover {
-  background-color: rgba(0, 136, 169, 0.8);
-}
-
-.main-div h1 {
-  font-size: 50px;
-  margin-left: 44px;
-}
-
-.main- {
+.main {
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.container {
-  display: flex;
-  margin: 30px;
-  height: 100vh;
+.main div {
+  font-size: 50px;
+  margin-left: 44px;
 }
 
-.container div {
+.about {
+  display: flex;
+  margin: 30px;
+  height: 40vh;
+}
+.about div {
   padding: 15px;
   margin: 20px;
 }
 
-.container-2 {
-  margin-top: 50px;
-}
-
-.port-title {
-  text-align: center;
-  margin-top: 80px;
-}
-
-.proj-1 {
-  border: 2px solid black;
-
-}
-
-.projects {
-  width: 100vw;
-  height: 100vh;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
 }

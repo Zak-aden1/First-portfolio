@@ -1,0 +1,10 @@
+.main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main div {
+  font-size: 50px;
+  margin-left: 44px;
+}
