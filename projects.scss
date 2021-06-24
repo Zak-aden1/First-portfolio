@@ -1,12 +1,69 @@
-
+@import "./variables";
 
 .projects {
     width: 100vw;
     height: 100vh;
-    background-color: green;
-}
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: row wrap;
+    margin-top: 20px;
 
-.section__h2 {
+    
+
+    .section__div {
+
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
         text-align: center;
-        margin-top: 80px;
+        font-size: 20px;
+        margin: 20px;
+        width: 45%;
+        .section__h2 {
+            font-size: $fontSize;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            flex: 1 0 100%;
+        }
+
+        div {
+            margin: 0 20px;
+        }
+
+        .div__wrapper {
+            width: 45%;
+
+
+            p {
+                margin: 20px 0;
+                font-size: 20px;
+            }
+
+            a {
+                button {
+                    font-size: 28px;
+                    padding: 20px;
+                    margin: 20px;
+                    border-radius: 10px;
+                    border: 2px $prmColor solid;
+                    background-color: transparent;
+                    color: white;
+                    font-weight: bold;
+
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: $prmColor;
+                        color: white;
+
+                    }
+                }
+            }
+        }
     }
+}

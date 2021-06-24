@@ -1,0 +1,20 @@
+.skills__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+  margin: 20px auto;
+}
+.skills__list .fab {
+  font-size: 40px;
+  text-align: center;
+}
+.skills__list .fab:hover {
+  cursor: pointer;
+  color: #71fecb;
+}
+
+h6 {
+  text-align: center;
+  font-size: 40px;
+}

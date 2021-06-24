@@ -1,9 +1,49 @@
-.about {
+.about__section {
+  width: 100vw;
+  height: 800px;
   display: flex;
-  margin: 30px;
-  height: 40vh;
+  flex-flow: row wrap;
 }
-.about div {
-  padding: 15px;
+.about__section .about__box1 {
+  flex: 1 0 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
   margin: 20px;
+}
+.about__section .about__box3 {
+  background-color: #71fecb;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  width: 45%;
+}
+.about__section .about__box3 p {
+  background-color: #71fecb;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.about__section .about__box3 a {
+  background-color: #71fecb;
+}
+.about__section .about__box3 a button {
+  font-size: 28px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 2px white solid;
+  background-color: #71fecb;
+  color: white;
+  font-weight: bold;
+}
+.about__section .about__box3 a button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #71fecb;
+}
+
+.wrapper__section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
