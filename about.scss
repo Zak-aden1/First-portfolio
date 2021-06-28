@@ -1,10 +1,72 @@
-.about{
-    display: flex;
-    margin: 30px;
-    height: 40vh;
+@import "./variables";
 
-    div {
-        padding: 15px;
+
+.about__section {
+    // background-color: $prmColor;
+    width: 100vw;
+    height: 800px;
+    // border: 2px solid black;
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    flex-flow: row wrap;
+
+    .about__box1 {
+        flex: 1 0 100%;
+        // background-color: $prmColor;
+        text-align: center;
+        font-size: 50px;
+        color: white;
         margin: 20px;
     }
+
+    .about__box2 {
+        // background-color: $prmColor;
+    }
+
+    .about__box3 {
+        background-color: $prmColor;
+        color: white;
+        font-size: 20px;
+        margin: 20px;
+        width: 45%;
+
+        p {
+            background-color: $prmColor;
+            margin: 20px 0;
+            font-size: 20px;
+        }
+
+        a {
+            background-color: $prmColor;
+
+            button {
+                font-size: 28px;
+                padding: 20px;
+                margin: 20px;
+                border-radius: 10px;
+                border: 2px white solid;
+                background-color: $prmColor;
+                color: white;
+                font-weight: bold;
+
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: white;
+                    color: $prmColor;
+
+                }
+            }
+        }
+
+    }
 }
+
+.wrapper__section {
+    display: flex;
+    // background-color: $prmColor;
+    justify-content: space-around;
+    align-items: center;
+}
+

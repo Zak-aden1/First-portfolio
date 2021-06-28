@@ -1,0 +1,13 @@
+@import "./variables";
+
+.contact {
+    width: 100vw;
+}
+
+.contact__box {
+    width: 500px;
+    box-shadow: 0 0 20px 0 $prmColor;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
